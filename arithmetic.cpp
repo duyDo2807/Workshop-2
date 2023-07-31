@@ -26,3 +26,15 @@ std::string add(std::string a, std::string b) {
 
   return result;
 }
+
+int main() {
+  std::string a, b;
+  std::cout << "Enter two binary numbers: ";
+  std::cin >> a >> b;
+
+  std::string addition = add(a, b);
+
+  std::cout << "String a + String b = " << addition << std::endl;
+
+  return 0;
+}

@@ -19,3 +19,16 @@ std::string Base10ToBase2(int decimalNumber) {
   }
   return baseNumber;
 }
+
+int main() {
+  int decimalNumber;
+
+  std::cout << "Enter a decimal number: ";
+  std::cin >> decimalNumber;
+
+  std::string binaryNumber = Base10ToBase2(decimalNumber);
+
+  std::cout << "Binary representation: " << binaryNumber << std::endl;
+
+  return 0;
+}
